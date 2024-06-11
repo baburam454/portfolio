@@ -1,0 +1,113 @@
+body{
+    background-image: radial-gradient(circle at 11% 37%, hsla(251,0%,28%,0.05) 0%, hsla(251,0%,28%,0.05) 50%,transparent 10%, transparent 56%,transparent 56%, transparent 100%),radial-gradient(circle at 82% 7%, hsla(251,0%,28%,0.05) 0%, hsla(251,0%,28%,0.05) 46%,transparent 46%, transparent 88%,transparent 88%, transparent 100%),radial-gradient(circle at 81% 79%, hsla(0, 73%, 49%, 0.05) 0%, hsla(251,0%,28%,0.05) 33%,transparent 33%, transparent 89%,transparent 89%, transparent 100%),radial-gradient(circle at 68% 96%, hsla(251,0%,28%,0.05) 0%, hsla(251,0%,28%,0.05) 8%,transparent 8%, transparent 26%,transparent 26%, transparent 100%),radial-gradient(circle at 69% 20%, hsla(251,0%,28%,0.05) 0%, hsla(251,0%,28%,0.05) 84%,transparent 84%, transparent 86%,transparent 86%, transparent 100%),radial-gradient(circle at 49% 22%, hsla(251,0%,28%,0.05) 0%, hsla(251,0%,28%,0.05) 71%,transparent 71%, transparent 78%,transparent 78%, transparent 100%),radial-gradient(circle at 23% 60%, hsla(251,0%,28%,0.05) 0%, hsla(251,0%,28%,0.05) 6%,transparent 6%, transparent 40%,transparent 40%, transparent 100%),radial-gradient(circle at 86% 33%, hsla(251,0%,28%,0.05) 0%, hsla(0, 94%, 49%, 0.05) 13%,transparent 13%, transparent 98%,transparent 98%, transparent 100%),radial-gradient(circle at 38% 60%, hsla(251,0%,28%,0.05) 0%, hsla(251,0%,28%,0.05) 15%,transparent 15%, transparent 61%,transparent 61%, transparent 100%),linear-gradient(0deg, hsl(167,0%,6%),hsl(167,0%,6%));
+    color:aliceblue; font-family:'Courier New', Courier, monospace;
+}
+/* body{background-color: black;color:aliceblue;} */
+.container-main{display:flex;justify-content: center;}
+.home{background-jcolor: red;width:60%}
+
+.top{
+    display:flex;
+    
+    justify-content: center;
+    margin-top:20px;
+    align-items: center;
+    color:aliceblue;
+    flex-wrap:wrap;
+   
+
+}
+.pp{
+   
+    width:240px;
+    height:250px;
+    overflow: hidden;
+    border-radius: 50%;
+    /* overflow: hidden; */
+}
+.pp  img{
+  width:250px;
+
+    border: 3px solid rgb(2, 2, 2); 
+    filter:grayscale(66);
+    
+}
+
+.top-text{
+    width:400px;
+    height:200px;
+    margin-left: 40px;
+  
+    vborder: 3px solid rgb(81, 255, 0);
+    font-family:'Courier New', Courier, monospace;
+    ktext-align: center;
+
+}
+
+.top-text a{
+    color:white;
+}
+.top-text p{
+    line-height: 0.2cm;
+}
+
+.top-text h1{
+    font-size: 50px;
+    htext-align: center;
+
+}
+
+.top2{
+    display: flex;
+    justify-content: center;
+
+}
+.top2 a{
+    color:white;
+    padding:10px 5px;
+    margin:0px 20px;
+    text-decoration: none;
+}
+
+.cv{text-align: center;}
+.cv h3{background-color: rgb(7, 98, 98);padding:5px }
+.cv a{color:white;margin:0px}
+
+.toolAndlanguage,.intrests{
+    margin-top: 30px;
+}
+
+.icons-main{
+    justify-content: space-between;
+}
+
+.icons-main img{
+    width:30px; margin:3px 5px;
+
+}
+.icons,.intrest{border: 1px solid white;border-radius: 8px; padding:5px}
+.icons-main, .icons1{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.intrestss{margin-top:60px}
+
+.intrests,.academic{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.academics{margin-top: 50px;}
+.academic table{width:100%;border:1px solid white;border-radius: 8px;}
+
+
+/*Projects_section_starts_from_here*/
+.projects{width:90%;margin-top: 100px;margin-left: auto;margin-right: auto;  backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    opacity: 0.6;
+    border-radius: 12px;
+    border: 1px solid rgba(27, 27, 28, 0.3);}
+
